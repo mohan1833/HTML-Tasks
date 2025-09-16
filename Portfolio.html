@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang>
+
+<head>
+    <title>Mohan Kamireddy - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        
+        header p {
+            font-size: 15px;
+            margin-top: 10px;
+        }
+        
+        nav {
+            background-color: #333;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            justify-content: center;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 0;
+            display: block;
+        }
+        
+        nav ul li a:hover {
+            color: blue;
+        }
+        
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        
+        section h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: blue;
+        }
+        
+        .about,
+        .skills,
+        .hobbies,
+        .projects,
+        .contact {
+            background-color: white;
+            margin-bottom: 40px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .about p {
+            text-align: center;
+            font-size: 1.1em;
+        }
+        
+        .skills ul,
+        .hobbies ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .skills ul li,
+        .hobbies ul li {
+            background-color: blue;
+            color: white;
+            margin: 10px;
+            padding: 10px 20px;
+            border-radius: 20px;
+        }
+        
+        .projects .project-item {
+            margin-bottom: 20px;
+        }
+        
+        .projects .project-item h3 {
+            color: #333;
+        }
+        
+        .projects .project-item p {
+            color: #555;
+        }
+        
+        .contact p {
+            text-align: center;
+            margin: 10px 0;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Mohan Kamireddy</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <img src="1689149336683.jpg" alt="Mohan Kamireddy" class="profile-pic">
+        <p>
+            Hi, I'm Mohan Kamireddy, a passionate web developer with experience in creating responsive and user-friendly websites. I love coding, learning new technologies, and building projects that make a difference.
+        </p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <section id="hobbies" class="hobbies">
+        <h2>My Hobbies</h2>
+        <ul>
+            <li>Playing games</li>
+            <li>Coding</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-item">
+            <h3>Pet Connect Web App</h3>
+            <p>A web application for buying and selling pets with admin and seller management features.</p>
+        </div>
+        <div class="project-item">
+            <h3>Medical Diagnosis System</h3>
+            <p>A decision-tree-based system to suggest possible diseases based on symptoms entered by users.</p>
+        </div>
+        <div class="project-item">
+            <h3>Portfolio Website</h3>
+            <p>This portfolio itself! Designed with HTML and CSS , fully responsive and clean layout.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: mohankamireddy91@gmail.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/feed/?trk=hb_signin" target="_blank">linkedin.com/in/mohan-kamireddy</a></p>
+        <p>GitHub: <a href="https://github.com/mohan1833" target="_blank">github.com/mohankamireddy</a></p>
+    </section>
+
+    <footer>
+        &copy; 2025 Mohan Kamireddy.
+    </footer>
+</body>
+
+</html>

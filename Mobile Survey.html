@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Mobile Survey</title>
+    <style>
+        h1 {
+            color: darksalmon;
+        }
+        
+        label {
+            font-size: large;
+            font-weight: bold;
+            color: black;
+        }
+        
+        body {
+            border: solid 2px black;
+            padding-left: 150px;
+        }
+        
+        .survey-box {
+            border: 2px solid red;
+            background-color: #f5f5f5;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Mobile Survey</h1>
+    <div class="" survey-box>
+        <form action="#">
+            <label for="name">Enter your Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <h3>Purchase Preferences:</h3><br>
+
+            <label for="budget">Budget Range:</label><br>
+            <select name="budget" id="budget" required>
+            <option value="#">--Select--</option>
+            <option value="Upto 10,000">10,000</option>
+            <option value="Upto 20,000">20,000</option>
+            <option value="Upto 30,000">30,000</option>
+            <option value="Upto 40,000">40,000</option>
+         </select><br>
+
+            <label for="brand">Brand Preference:</label><br>
+            <select name="brand" id="brand" required>
+            <option value="#">--Select--</option>
+            <option value="Redmi">Redmi</option><br>
+            <option value="Realme">Realme</option>
+            <option value="Samsung">Samsung</option>
+            <option value="Oppo">Oppo</option>
+            <option value="Vivo">Vivo</option>
+            <option value="OnePlus">OnePlus</option>
+         </select><br>
+
+            <label>Network Type:</label><br>
+            <input type="radio" id="1" name="network" value="4G" required>
+            <label for="1">4G</label>
+            <input type="radio" id="2" name="network" value="5G">
+            <label for="2">5G</label><br>
+
+            <label>Features you like in a new mobile:</label><br>
+            <input type="checkbox" name="camera" id="camera" value="Quality Camera">
+            <label for="camera">High Quality Camera</label><br>
+            <input type="checkbox" name="battery" id="battery" value="Long battery life">
+            <label for="battery">Long Battery Life</label><br>
+            <input type="checkbox" name="gaming" id="gaming" value="Best processor">
+            <label for="gaming">Best gamming experience</label><br>
+            <input type="checkbox" name="charging" id="charging" value="Quick charging">
+            <label for="charging">Quick Charging</label><br>
+
+            <label for="feedback">Any Suggetions for mobile design!</label><br>
+            <textarea name="feedback" id="feedback" rows="6" cols="30" placeholder="Any suggetions for new mobile designs.."></textarea><br>
+            <button onclick="alert('hellooworld')"> click me..!</button>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>
